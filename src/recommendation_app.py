@@ -56,7 +56,7 @@ class Page:
         self.column.clear()
         with self.column.style('align-items: center'):
             ui.html("<div>", sanitize=False).style("height: 2em")
-            if skeleton or not self.current_set:
+            if skeleton or self.current_set is None:
                 ui.skeleton(height="5em", width="15em")
                 ui.skeleton(height="5em", width="15em")
                 ui.skeleton(height="5em", width="15em")
