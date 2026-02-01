@@ -4,6 +4,10 @@ This project was originally built to solve the practical problem of planning a s
 
 A regression model recommends a set of three dishes which are dissimilar from each other in terms of taste, price, and other factors.
 
+<img width="773" height="467" alt="image" src="https://github.com/user-attachments/assets/49ff65f3-e905-4828-b5bb-8e906e41a6d1" />
+
+*Screenshot of the recommendation app*
+
 ## Project structure
 
 - `notebooks/`: building a training dataset, eda, and model development
